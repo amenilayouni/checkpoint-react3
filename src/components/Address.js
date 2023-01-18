@@ -1,7 +1,8 @@
-const Address = () => {
+
+ const Address =  ({adresse}) => {
     return (
 
-     <h2>Regueb Sidi Bouzid</h2>
+     <h2>{adresse}</h2>
     )
 }
 

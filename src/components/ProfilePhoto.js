@@ -1,7 +1,12 @@
-const ProfilePhoto = () => {
-    return (
 
-<img className="profile-photo" src={'./images/ProfilePhoto.jpg'} alt={"Carlie Anglemire"}/>
+ const ProfilePhoto = ({children}) => {
+    return (
+        <div>
+                   {children}
+
+        </div>
+
+//<img className="profile-photo" src={'./images/ProfilePhoto.jpg'} alt={"Carlie Anglemire"}/>//
     )
 }
 
